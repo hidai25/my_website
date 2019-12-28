@@ -20,3 +20,47 @@
 .App-link {
   color: #09d3ac;
 }
+
+.Navbar{
+  background-color: #344145;
+  height: 3em;
+
+
+
+
+}
+.Nav__item-wrapper{
+  list-style-type: none;
+  text-align: center;
+  line-height: 45px;
+float: left;
+margin-left:180px;
+}
+
+.Nav__item{
+  display: inline;
+   border-radius: 3px;
+
+
+
+}
+
+.Nav__link{
+
+  color:white;
+  padding: 2em;
+   text-decoration: none;
+
+
+
+ }
+
+
+ul{
+  margin: 0;
+padding:0px 1px 0px 1px;
+}
+
+body{
+  margin: 0;
+}
