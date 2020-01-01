@@ -35,7 +35,13 @@ const slideOutLeft = keyframes`
   }
 `;
 
-const Page = styled.div``;
+const Page = styled.div`
+position: relative;
+width: 100vw;
+height: 100vh;
+background-color: grey;
+font-family: "Open Sans", sans-serif;
+`;
 
 // apply the correct animation based on the transition state class name.
 const HomePageElm = styled(Page)`
@@ -52,18 +58,22 @@ class Home extends Component {
 
   render() {
     return (
+      // <div className="home">
+        <div className="home">
       <Page>
       <HomePageElm>
-      <div>
+
       <Typist className="MyTypist">
         My name is Hidai Bar-Mor. I am a financial markets professional and a developer.
          <Typist.Delay ms={5000} />
       </Typist>
 
         <Link to="/about">Go to Page Two →</Link>
-        </div>
+
       </HomePageElm>
       </Page>
+  </div>
+      // </div>
     );
   }
 }
