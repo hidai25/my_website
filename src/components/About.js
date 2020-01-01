@@ -3,14 +3,21 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const GridWrapper = styled.div`
-  display: grid;
-  grid-gap: 10px;
-  margin-top: 1em;
-  margin-left: 6em;
-  margin-right: 6em;
-  grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: minmax(25px, auto);
+position: relative;
+width: 100vw;
+height: 100vh;
+background-color: #e3f2fd;
+font-family: "Open Sans", sans-serif;
 `;
+
+// const PageContainer = styled.div`
+//   position: relative;
+//   width: 100vw;
+//   height: 100vh;
+//   background-color: #e3f2fd;
+//   font-family: "Open Sans", sans-serif;
+// `;
+
 
 
 class About extends Component {
@@ -18,7 +25,15 @@ class About extends Component {
     return (
        <GridWrapper>
         <div>
-          <h2>About Me</h2>
+
+          <h2 className="title_about" >About Me</h2>
+          <p>
+
+          I am a student, a researcher, a data scientist and an athlete. Currently, I am a half way through my masters in software engineering in Harvard Extension School of Harvard University.  During my studies I am completing as well a data science certificate in which I already acquired many valuable skills to analyse data and make forecasts using the most sophisticated tools in reach.
+          Alongside academic research I am available for consulting services. If you have interest in my services please contact me.
+
+
+          </p>
         </div>
          </GridWrapper>
     );

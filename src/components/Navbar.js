@@ -17,6 +17,9 @@ import { Nav } from 'styled-nav-component';
 
            <div className="Nav__right">
              <ul className="Nav__item-wrapper">
+             <li className="Nav__item">
+               <Link className="Nav__link" to="/">Home</Link>
+             </li>
                <li className="Nav__item">
                  <Link className="Nav__link" to="/About">About Me</Link>
                </li>

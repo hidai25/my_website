@@ -21,46 +21,68 @@
   color: #09d3ac;
 }
 
-.Navbar{
+.Navbar {
   background-color: #344145;
   height: 3em;
-
-
-
-
 }
-.Nav__item-wrapper{
+
+.Nav__item-wrapper {
   list-style-type: none;
   text-align: center;
   line-height: 45px;
-float: left;
-margin-left:180px;
+  float: left;
+  margin-left: 180px;
 }
 
-.Nav__item{
+.Nav__item {
   display: inline;
-   border-radius: 3px;
-
-
-
+  border-radius: 3px;
 }
 
-.Nav__link{
-
-  color:white;
+.Nav__link {
+  color: white;
   padding: 2em;
-   text-decoration: none;
-
-
-
- }
-
-
-ul{
-  margin: 0;
-padding:0px 1px 0px 1px;
+  text-decoration: none;
 }
 
-body{
+ul {
+  margin: 0;
+  padding: 0px 1px 0px 1px;
+}
+
+body {
   margin: 0;
 }
+
+#my-contact {
+  color: black;
+}
+
+button {
+  text-align: center
+}
+
+.contact{
+  /* background-color: grey; */
+}
+
+h2{
+  text-align: center;
+}
+
+.title_about{
+  text-align: center;
+}
+.Typist .Cursor {
+  display: inline-block; }
+  .Typist .Cursor--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
