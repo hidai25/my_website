@@ -62,44 +62,252 @@ button {
   text-align: center
 }
 
-.contact{
+.contact {
   /* background-color: grey; */
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
-.title_about{
+.title_about {
   text-align: center;
 }
+
 .Typist .Cursor {
-  display: inline-block; }
-  .Typist .Cursor--blinking {
-    opacity: 1;
-    animation: blink 1s linear infinite; }
+  display: inline-block;
+}
 
-    .Typist{
+.Typist .Cursor--blinking {
+  opacity: 1;
+  animation: blink 1s linear infinite;
+}
 
-      font-weight: 800;
-      color:white;
-      font-size: 24px;
-      position: fixed; /* or absolute */
-    top: 45%;
-left:16%;
-
-    }
+.Typist {
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+  position: fixed;
+  /* or absolute */
+  top: 43%;
+  left: 16%;
+}
 
 @keyframes blink {
   0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-
-  .home{
-    background-color: grey;
-    width: 100%; height: 100%;
+    opacity: 1;
   }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.home {
+  background-color: #28304;
+  width: 100%;
+  height: 100%;
+}
+
+.Explore {
+  margin-bottom: 20%;
+}
+
+.container {
+  /* justify-content: space-between; */
+  flex-direction: column;
+  height: 100vh;
+  /* display: flex; */
+}
+
+.container .btn-holder {
+  /* justify-content: flex-end; */
+  display: absolute;
+  margin-bottom: 20%;
+}
+
+#arrowAnim {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  width: 5vw;
+  height: 5vw;
+  border: 2.5vw solid;
+  border-color: #1ba6a3 transparent transparent #1ba6a3;
+  transform: rotate(135deg);
+}
+
+.arrowSliding {
+  position: absolute;
+  -webkit-animation: slide 4s linear infinite;
+  animation: slide 4s linear infinite;
+}
+
+.delay1 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.delay2 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.delay3 {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateX(-15vw);
+  }
+
+  20% {
+    opacity: 1;
+    transform: translateX(-9vw);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateX(9vw);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(15vw);
+  }
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateX(-15vw);
+  }
+
+  20% {
+    opacity: 1;
+    transform: translateX(-9vw);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateX(9vw);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(15vw);
+  }
+}
+
+.name {
+  color: red;
+}
+
+
+.bars{
+  width:50%;
+  margin-left: 30%;
+}
+
+
+.progress-bar {
+    margin-bottom: 1rem;
+    background-color: lightgray;
+    /* border-radius: 1.25em; */
+    width: 300px;
+    height: 16px;
+    font-size: 12px;
+    /* display: inline-block; */
+}
+.progress-value {
+    background-color: #673ab7;
+    transition: 0.3s all linear;
+    /* border-radius: 1.25em; */
+    height: 16px;
+    display: inline-block;
+    animation: progress 3s ease-in-out forwards;
+    -webkit-animation: progress 3s ease-in-out forwards;
+}
+.progress-value.green {
+    background-color: #4CAF50;
+    animation: progress-3 3s ease-in-out forwards;
+    -webkit-animation: progress-3 3s ease-in-out forwards;
+}
+.progress-value.yellow {
+   background-color: #ff9800;
+  animation: progress-2 3s ease-in-out forwards;
+    -webkit-animation: progress-2 3s ease-in-out forwards;
+}
+/* animation */
+ @keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 55%;
+  }
+}
+ @-webkit-keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 55%;
+  }
+}
+ @keyframes progress-2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+ @-webkit-keyframes progress-2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+ @keyframes progress-3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+ @-webkit-keyframes progress-3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+.progress-value{
+  width:55%
+}
+
+.progress-value yellow{
+  width:70%;
+}
+
+.progress-value green{
+  width:90%;
+}

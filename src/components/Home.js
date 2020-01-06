@@ -6,6 +6,7 @@ import '../App.css';
 import { Link } from 'react-router-dom';
 import { keyframes } from "styled-components"
 import Typist from 'react-typist';
+import Fade from 'react-reveal/Fade';
 
 // animation to slide in the home page from left
 const slideInLeft = keyframes`
@@ -39,7 +40,15 @@ const Page = styled.div`
 position: relative;
 width: 100vw;
 height: 100vh;
-background-color: grey;
+background-color: #283040;
+font-family: "Open Sans", sans-serif;
+`;
+
+const Explore = styled.div`
+position: relative;
+bottom: -340px;
+right: 20px;
+// position:relative;
 font-family: "Open Sans", sans-serif;
 `;
 
@@ -64,11 +73,34 @@ class Home extends Component {
       <HomePageElm>
 
       <Typist className="MyTypist">
-        My name is Hidai Bar-Mor. I am a financial markets professional and a developer.
+        My name is <span className = "name">Hidai Bar-Mor</span>. I am a financial markets professional and a developer.
          <Typist.Delay ms={5000} />
       </Typist>
+      <div id="arrowAnim">
+    <Link to="/about">
+        <div class="arrowSliding">
 
-        <Link to="/about">Go to Page Two →</Link>
+          <div class="arrow"></div>
+        </div>  </Link>
+<Link to="/about">
+        <div class="arrowSliding delay1">
+          <div class="arrow"></div>
+        </div>
+        </Link>
+        <Link to="/about">
+        <div class="arrowSliding delay2">
+          <div class="arrow"></div>
+        </div>
+        </Link>
+        <Link to="/about">
+        <div class="arrowSliding delay3">
+          <div class="arrow"></div>
+        </div>
+          </Link>
+      </div>
+
+
+
 
       </HomePageElm>
       </Page>

@@ -1,4 +1,5 @@
-
+import Fade from 'react-reveal/Fade';
+import Navbar from './Navbar';
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
@@ -25,8 +26,10 @@ class About extends Component {
     return (
        <GridWrapper>
         <div>
-
+         <Navbar fixed="top" />
+<Fade left>
           <h2 className="title_about" >About Me</h2>
+          </Fade>
           <p>
 
           I am a student, a researcher, a data scientist and an athlete. Currently, I am a half way through my masters in software engineering in Harvard Extension School of Harvard University.  During my studies I am completing as well a data science certificate in which I already acquired many valuable skills to analyse data and make forecasts using the most sophisticated tools in reach.

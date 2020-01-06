@@ -6,11 +6,14 @@ import Fade from 'react-reveal/Fade';
 import { Google,Facebook, Twitter } from 'react-sharingbuttons'
 import 'react-sharingbuttons/dist/main.css'
 import {Helmet} from 'react-helmet';
+import Navbar from './Navbar';
 
 export default class Contact extends React.Component {
 	render() {
 		return (
+
 			<div className="contact">
+			   <Navbar fixed="top" />
 			<Helmet>
 							<style>{'body { background-color: #323f54; }'}</style>
 					</Helmet>

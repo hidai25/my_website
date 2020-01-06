@@ -3,15 +3,41 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@carbon/colors": "^10.7.0",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.4.1",
+    "import": "0.0.6",
+    "install": "^0.13.0",
+    "mdbreact": "^4.24.0",
+    "node-sass": "^4.13.0",
+    "progressbar.js": "^1.1.0",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "react-helmet": "^5.2.1",
+    "react-native-progress-bar-animated": "^1.0.6",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-share": "^3.0.1",
+    "react-sharingbuttons": "^1.0.0",
+    "react-social-share-buttons": "^1.0.2",
+    "react-social-sharing": "^3.0.1",
+    "react-spring": "^8.0.27",
+    "react-sweet-progress": "^1.1.2",
+    "react-transition-group": "^4.3.0",
+    "react-typist": "^2.0.5",
+    "styled-components": "^4.4.1",
+    "styled-navbar-component": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "styled-components": "^4.3.2",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1"
   },
   "eslintConfig": {
     "extends": "react-app"
