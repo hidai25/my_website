@@ -1,5 +1,5 @@
 {
-  "HomePage": "https://hidai25.github.io/my_website/build/",
+  "HomePage": ".",
   "name": "my_website",
   "version": "0.1.0",
   "private": true,
