@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styled from 'styled-components'
 import '../App.css';
-import { useSpring, animated, config } from "react-spring";
+// import { useSpring, animated, config } from "react-spring";
 // import { Container } from 'styled-container-component';
 // import { Button } from 'styled-button-component';
-import {  NavbarLink } from 'styled-navbar-component';
-import { Nav } from 'styled-nav-component';
+// import {  NavbarLink } from 'styled-navbar-component';
+// import { Nav } from 'styled-nav-component';
 
  export default class Navbar extends React.Component {
    render() {

@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import '../styles';
 import '../App.css';
 import Fade from 'react-reveal/Fade';

@@ -6,7 +6,7 @@ import '../App.css';
 import { Link } from 'react-router-dom';
 import { keyframes } from "styled-components"
 import Typist from 'react-typist';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 // animation to slide in the home page from left
 const slideInLeft = keyframes`
@@ -44,13 +44,13 @@ background-color: #283040;
 font-family: "Open Sans", sans-serif;
 `;
 
-const Explore = styled.div`
-position: relative;
-bottom: -340px;
-right: 20px;
-// position:relative;
-font-family: "Open Sans", sans-serif;
-`;
+// const Explore = styled.div`
+// position: relative;
+// bottom: -340px;
+// right: 20px;
+// // position:relative;
+// font-family: "Open Sans", sans-serif;
+// `;
 
 // apply the correct animation based on the transition state class name.
 const HomePageElm = styled(Page)`
