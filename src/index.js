@@ -10,12 +10,13 @@ import 'react-mdl/extra/material.js';
 import * as serviceWorker from './serviceWorker';
 
 
-ReactDOM.render(
-  <BrowserRouter basename="/">
-  <App />
+ReactDOM.render((
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <App />
   </BrowserRouter>
 
-, document.getElementById('root'));
+), document.getElementById('root'))
+
 
 
 
