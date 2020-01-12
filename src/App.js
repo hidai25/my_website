@@ -31,10 +31,10 @@ function App() {
            //       <Link to="/contact">Contact</Link>
            //     </Navigation>
            // </Drawer>
-           // <Content>
-           //     <div className="page-content" />
-           //     <Main/>
-           // </Content>
+           <Content>
+               <div className="page-content" />
+               <Main/>
+           </Content>
        </Layout>
    </div>
      );
