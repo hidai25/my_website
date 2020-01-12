@@ -25,12 +25,12 @@ function App() {
                    <Link to="/contact">Contact</Link>
                </Navigation>
            </Header>
-           // <Drawer className="nav-color" title="Home">
-           //     <Navigation className="nav-color">
-           //       <Link to="/projects">Projects</Link>
-           //       <Link to="/contact">Contact</Link>
-           //     </Navigation>
-           // </Drawer>
+           <Drawer className="nav-color" title="Home">
+               <Navigation className="nav-color">
+                 <Link to="/projects">Projects</Link>
+                 <Link to="/contact">Contact</Link>
+               </Navigation>
+           </Drawer>
            <Content>
                <div className="page-content" />
                <Main/>
