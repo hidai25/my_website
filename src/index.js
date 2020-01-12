@@ -23,20 +23,3 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
-
-
-
-
-// import App from './App';
-
-// import 'react-mdl/extra/material.css';
-// import 'react-mdl/extra/material.js';
-// import { BrowserRouter} from 'react-router-dom';
-//
-// ReactDOM.render(
-//   <BrowserRouter>
-//   <App />
-//   </BrowserRouter>
-//   , document.getElementById('root'));
-// serviceWorker.unregister();
-// © 2020 GitHub, Inc.

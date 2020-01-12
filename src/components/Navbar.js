@@ -38,12 +38,4 @@ import '../App.css';
      );
    }
  }
- // const Nav = styled(animated.nav)`
- //   position: fixed;
- //   width: 100%;
- //   top: 0;
- //   left: 0;
- //   background: #2d3436;
- //   z-index: 1;
- //   font-size: 1.4rem;
- // `;
+ 
