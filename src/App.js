@@ -15,17 +15,17 @@ function App() {
   return (
 
 
- <BrowserRouter>
+ // <BrowserRouter>
    <div className="App">
      <Switch>
-       <Route exact path="/" component={Home}/>
-       <Route path="/about" component={About}/>
-        <Route path="/Academics_and_Skills" component={Academics_and_Skills}/>
-       <Route path="/contact" component={Contact}/>
-       <Route path="/Projects" component={Projects}/>
+       // <Route exact path="/" component={Home}/>
+       // <Route path="/about" component={About}/>
+       //  <Route path="/Academics_and_Skills" component={Academics_and_Skills}/>
+       // <Route path="/contact" component={Contact}/>
+       // <Route path="/Projects" component={Projects}/>
      </Switch>
    </div>
-   </BrowserRouter>
+   // </BrowserRouter>
 
   );
 }
