@@ -19,16 +19,8 @@ function App() {
 
    <div className="App">
    <Layout>
-           <Header className="header-color" title="Title" scroll>
-               <Navigation>
-                   <a href="DeveloperResFINALReactNot.pdf" download>Resume</a>
-                   <Link to="/projects">Projects</Link>
-                   <Link to="/contact">Contact</Link>
-               </Navigation>
-           </Header>
            <Drawer className="nav-color" title="Home">
                <Navigation className="nav-color">
-                 <a href="DeveloperResFINALReactNot.pdf" download>Resume</a>
                  <Link to="/projects">Projects</Link>
                  <Link to="/contact">Contact</Link>
                </Navigation>
