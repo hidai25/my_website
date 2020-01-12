@@ -21,7 +21,6 @@ function App() {
 
      <Main/>
    </div>
-   // </BrowserRouter>
 
   );
 }
@@ -31,11 +30,7 @@ export default App;
 
 
 
-//
-//
-//
-// function App() {
-//   return (
+
 //     <div className="demo-big-content">
 //     <Layout>
 //         <Header className="header-color" title="Title" scroll>
