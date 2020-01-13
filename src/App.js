@@ -19,10 +19,10 @@ function App() {
 
    <div className="App">
    <Layout>
-           <Header className="header-color" title="Title" scroll>
+           <Header className="header-color" scroll>
                <Navigation>
                    <Link to="/projects"></Link>
-                   <Link to="/contact">Contact</Link>
+                   <Link to="/contact"></Link>
                </Navigation>
            </Header>
            <Drawer className="nav-color" title="Home">
@@ -32,7 +32,6 @@ function App() {
                </Navigation>
            </Drawer>
            <Content>
-               // <div className="page-content" />
                <Main/>
            </Content>
        </Layout>
