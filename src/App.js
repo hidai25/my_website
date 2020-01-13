@@ -25,8 +25,8 @@ function App() {
                    <Link to="/contact"></Link>
                </Navigation>
            </Header>
-           <Drawer className="nav-color" title="Home">
-               <Navigation className="nav-color">
+           <Drawer>
+               <Navigation>
                  <Link to="/projects">Projects</Link>
                  <Link to="/contact">Contact</Link>
                </Navigation>
