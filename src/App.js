@@ -19,12 +19,12 @@ function App() {
 
    <div className="App">
    <Layout>
-           <Header/>
-
+           <head>
+           </head>
            <Content>
                <Main/>
            </Content>
-               
+
 
 
        </Layout>

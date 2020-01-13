@@ -7,7 +7,7 @@
 }
 
 .App-header {
-  
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,9 @@
 .App-link {
   color: #09d3ac;
 }
-
+.header {
+  display:none;
+}
 .Navbar {
   background-color: #344145;
   height: 3em;
