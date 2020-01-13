@@ -25,15 +25,15 @@ function App() {
                    <Link to="/contact"></Link>
                </Navigation>
            </Header>
-           <Drawer>
-               <Navigation>
-                 <Link to="/projects">Projects</Link>
-                 <Link to="/contact">Contact</Link>
-               </Navigation>
-           </Drawer>
            <Content>
                <Main/>
            </Content>
+               <Navigation>
+                 <Link to="/projects"></Link>
+                 <Link to="/contact"></Link>
+               </Navigation>
+
+
        </Layout>
    </div>
      );
