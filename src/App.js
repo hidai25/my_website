@@ -20,14 +20,11 @@ function App() {
    <div className="App">
    <Layout>
            <Header/>
-          
+
            <Content>
                <Main/>
            </Content>
-               <Navigation>
-                 <Link to="/projects"></Link>
-                 <Link to="/contact"></Link>
-               </Navigation>
+               
 
 
        </Layout>
