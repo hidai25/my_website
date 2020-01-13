@@ -20,10 +20,10 @@ function App() {
    <div className="App">
    <Layout>
            <Header className="header-color" title="Title" scroll>
-               // <Navigation>
-               //     <Link to="/projects">Projects</Link>
-               //     <Link to="/contact">Contact</Link>
-               // </Navigation>
+               <Navigation>
+                   <Link to="/projects"></Link>
+                   <Link to="/contact">Contact</Link>
+               </Navigation>
            </Header>
            <Drawer className="nav-color" title="Home">
                <Navigation className="nav-color">
