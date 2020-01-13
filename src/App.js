@@ -19,7 +19,7 @@ function App() {
 
    <div className="App">
    <Layout>
-           <Header  scroll>
+           <Header>
                <Navigation>
                    <Link to="/projects"></Link>
                    <Link to="/contact"></Link>
