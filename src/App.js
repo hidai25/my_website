@@ -20,10 +20,6 @@ function App() {
    <div className="App">
    <Layout>
            <Header>
-               <Navigation>
-                   <Link to="/projects"></Link>
-                   <Link to="/contact"></Link>
-               </Navigation>
            </Header>
            <Content>
                <Main/>
