@@ -24,9 +24,6 @@ function App() {
            <Content>
                <Main/>
            </Content>
-
-
-
        </Layout>
    </div>
      );
