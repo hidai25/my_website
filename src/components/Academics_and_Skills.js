@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import Navbar from './Navbar';
 import '../styles';
 import '../App.css';
-
-
+import ProgressBar from 'react-bootstrap/ProgressBar'
+import { Progress } from 'reactstrap';
 
 
 const GridWrapper = styled.div`
@@ -23,32 +23,44 @@ class Home extends Component {
     return (
 
       <GridWrapper>
-        <div>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+
+
+
          <Navbar fixed="top" />
           <h2>My skills</h2>
-          <div class="container">
-          <div class="progress-bar">
-   <div class="progress-value" >75%</div>
+
+          <div class="w3-container">
+
+
+
+        <Progress multi>
+                <Progress bar value="30">JAVASCRIPT</Progress>
+                <div class="progress-bar">
+                   <span class="progress-value" >75%</span>
+                        </div>
+              </Progress><br/>
+
+
+        <Progress multi>
+                <Progress bar value="30">HTML</Progress>
+                <div class="progress-bar">
+                   <span class="progress-value yellow" >85%</span>
+                        </div>
+              </Progress><br/>
+
+
+              <Progress multi>
+                      <Progress bar value="30">CSS</Progress>
+                      <div class="progress-bar">
+                         <span class="progress-value green" >90%</span>
+                              </div>
+                    </Progress>
+
 </div>
-<span><strong>JAVASCRIPT</strong></span>
 
 
-
-
-
-<br/>
-<div class="progress-bar">
-   <span class="progress-value yellow" >85%</span>
-</div>
-<span><strong>HTML</strong></span>
-<br/>
-<div class="progress-bar">
-   <span class="progress-value green" >90%</span>
-</div>
-<span><strong>CSS</strong></span>
-<br/>
-        </div>
-        </div>
   </GridWrapper>
     );
   }

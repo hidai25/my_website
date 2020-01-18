@@ -229,18 +229,25 @@ h2 {
     background-color: lightgray;
   /* border-radius: 1.25em; */
     width: 300px;
-    height: 16px;
+    height: 20px;
     font-size: 12px;
   display:inline-flex;
+  float: left;
+  /* margin-left: 50px; */
+
+
 }
+
 .progress-value {
     background-color: #673ab7;
     transition: 0.3s all linear;
    /* border-radius: 1.25em; */
-    height: 16px;
+    height: 20px;
     display: inline-block;
     animation: progress 3s ease-in-out forwards;
     -webkit-animation: progress 3s ease-in-out forwards;
+width: 200px;
+
 }
 .progress-value.green {
     background-color: #4CAF50;
@@ -312,4 +319,34 @@ h2 {
 
 .progress-value green{
   width:90%;
+}
+
+
+
+.barname{
+  color:grey;
+  /* margin-left: 300px; */
+
+
+}
+
+.progress{
+  width: 400px;
+  text-align:left;
+  height: 20px;
+  font-size: 11px;
+}
+
+
+.dropdown-menu.pull-right {
+    /* right: 0; */
+    /* left: auto; */
+}
+/* .pull-left{float:left} */
+/* .pull-right{float:right} */
+/* .media-name{margin:10px 20px 10px 0;} */
+
+ProgressBar{
+
+  width:300px;
 }
