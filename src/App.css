@@ -227,16 +227,16 @@ h2 {
 .progress-bar {
     margin-bottom: 1rem;
     background-color: lightgray;
-    /* border-radius: 1.25em; */
+  /* border-radius: 1.25em; */
     width: 300px;
     height: 16px;
     font-size: 12px;
-    /* display: inline-block; */
+  display:inline-flex;
 }
 .progress-value {
     background-color: #673ab7;
     transition: 0.3s all linear;
-    /* border-radius: 1.25em; */
+   /* border-radius: 1.25em; */
     height: 16px;
     display: inline-block;
     animation: progress 3s ease-in-out forwards;
@@ -258,7 +258,7 @@ h2 {
     width: 0;
   }
   to {
-    width: 55%;
+    width: 75%;
   }
 }
  @-webkit-keyframes progress {
@@ -266,7 +266,7 @@ h2 {
     width: 0;
   }
   to {
-    width: 55%;
+    width: 75%;
   }
 }
  @keyframes progress-2 {
@@ -274,7 +274,7 @@ h2 {
     width: 0;
   }
   to {
-    width: 70%;
+    width: 85%;
   }
 }
  @-webkit-keyframes progress-2 {
@@ -282,7 +282,7 @@ h2 {
     width: 0;
   }
   to {
-    width: 70%;
+    width: 85%;
   }
 }
  @keyframes progress-3 {
@@ -303,11 +303,11 @@ h2 {
 }
 
 .progress-value{
-  width:55%
+  width:75%
 }
 
 .progress-value yellow{
-  width:70%;
+  width:75%;
 }
 
 .progress-value green{

@@ -26,13 +26,19 @@ class Home extends Component {
         <div>
          <Navbar fixed="top" />
           <h2>My skills</h2>
+          <div class="container">
           <div class="progress-bar">
-   <span class="progress-value" >55%</span>
+   <div class="progress-value" >75%</div>
 </div>
 <span><strong>JAVASCRIPT</strong></span>
+
+
+
+
+
 <br/>
 <div class="progress-bar">
-   <span class="progress-value yellow" >70%</span>
+   <span class="progress-value yellow" >85%</span>
 </div>
 <span><strong>HTML</strong></span>
 <br/>
@@ -41,6 +47,7 @@ class Home extends Component {
 </div>
 <span><strong>CSS</strong></span>
 <br/>
+        </div>
         </div>
   </GridWrapper>
     );

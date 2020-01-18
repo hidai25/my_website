@@ -111,15 +111,3 @@ class Home extends Component {
 }
 
 export default Home;
-
-
-
-//
-// function HomePage() {
-//   return (
-//     <HomePageElm>
-//       <h2>Home Page</h2>
-//       <Link to="/details">Go to Page Two →</Link>
-//     </HomePageElm>
-//   );
-// }
