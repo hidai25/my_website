@@ -42,6 +42,7 @@ width: 100vw;
 height: 100vh;
 background-color: #283040;
 font-family: "Open Sans", sans-serif;
+font-align:center;
 `;
 
 
