@@ -66,7 +66,7 @@ export default class Contact extends React.Component {
 						</div>
 					</div>
 					<div className="row text-md-center text-sm-center">
-						<div className="col-12 col-sm-12 col-md-6 mx-auto">
+						<div className="col-8 col-sm-8 col-md-6 mx-auto">
 							<button
 								type="submit"
 								className="btn btn-primary mb-2 hidden">
@@ -76,8 +76,8 @@ export default class Contact extends React.Component {
 					</div>
 				</form>
 
-				<Facebook url={"www.Facebook.com"} />
-				      <Twitter url={"www.twitter.com"} shareText={"hello"} />
+				<Facebook url={"https://www.facebook.com/hidai.barmor"} />
+				      <Twitter url={"https://twitter.com/hidai_barmor"} shareText={"hello"} />
 							  <Google url={"www.Google.com"} shareText={"hello"} />
 
 

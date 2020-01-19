@@ -44,13 +44,6 @@ background-color: #283040;
 font-family: "Open Sans", sans-serif;
 `;
 
-// const Explore = styled.div`
-// position: relative;
-// bottom: -340px;
-// right: 20px;
-// // position:relative;
-// font-family: "Open Sans", sans-serif;
-// `;
 
 // apply the correct animation based on the transition state class name.
 const HomePageElm = styled(Page)`

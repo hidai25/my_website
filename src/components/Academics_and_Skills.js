@@ -41,7 +41,7 @@ class Home extends Component {
           <div class="row">
             <div class="col-sm-6">
             <img src={hidai}/>
-              <div class="skillstxt">I am a finance professional and experienced software developer. I give full stack web development solution as well as Data science and deep learning ones in the fields of finance an others.</div>
+              <div class="skillstxt">I am a finance professional and experienced software developer. I give full stack web development solution as well as Data science and deep learning ones in the fields of finance and others.</div>
             </div>
             <div class="col-sm-6">
 

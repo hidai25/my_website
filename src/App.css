@@ -26,6 +26,7 @@
 .Navbar {
   background-color: #344145;
   height: 3em;
+   border-bottom: 3px solid #0fa392;
 }
 
 .Nav__item-wrapper {
@@ -559,8 +560,8 @@ img{
 }
 
 
-@media screen and (max-width: 500px) {
-  .Navbar  {
+@media screen and (max-width: 700px) {
+  .Navbar a {
     float: none;
     display: block;
   }
