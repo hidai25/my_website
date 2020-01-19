@@ -531,7 +531,7 @@ ProgressBar{
   font-size: 40px;
   position: relative;
   margin:0;
-  font-weight:bold; 
+  font-weight:bold;
 }
 .script span {
 
@@ -545,4 +545,23 @@ ProgressBar{
   top: 50%;
   width: 100%;
   border-bottom: 3px solid #fff;
+}
+
+
+
+.skillstxt{
+  font-size: 12px;
+}
+
+img{
+  width:250px;
+  border-radius: 60%
+}
+
+
+@media screen and (max-width: 500px) {
+  .Navbar  {
+    float: none;
+    display: block;
+  }
 }

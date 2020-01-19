@@ -5,7 +5,7 @@ import '../styles';
 import '../App.css';
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import { Progress } from 'reactstrap';
-
+import hidai from '../img/hidai.jpeg';
 
 const GridWrapper = styled.div`
   // display: grid;
@@ -25,7 +25,9 @@ class Home extends Component {
       <GridWrapper>
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 
          <Navbar fixed="top" />
@@ -36,11 +38,12 @@ class Home extends Component {
 <br/>
 <br/>
 <br/>
-          <div class="w3-cell-row">
-            <div class="w3-container w3-white w3-cell">
-              <p>I am a finance profession and experienced software developer</p>
+          <div class="row">
+            <div class="col-sm-6">
+            <img src={hidai}/>
+              <div class="skillstxt">I am a finance professional and experienced software developer. I give full stack web development solution as well as Data science and deep learning ones in the fields of finance an others.</div>
             </div>
-            <div class="w3-container w3-white w3-cell">
+            <div class="col-sm-6">
 
 
             <div class="skills">
