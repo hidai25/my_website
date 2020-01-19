@@ -68,8 +68,10 @@ button {
   /* background-color: grey; */
 }
 
-h2 {
+sktitle {
   text-align: center;
+  font-weight: 1000;
+  font-size: 80px;
 }
 
 .title_about {
@@ -259,6 +261,70 @@ width: 200px;
   animation: progress-2 3s ease-in-out forwards;
     -webkit-animation: progress-2 3s ease-in-out forwards;
 }
+
+.progress-value.blue {
+   background-color: blue;
+  animation: progress 3s ease-in-out forwards;
+    -webkit-animation: progress 3s ease-in-out forwards;
+}
+
+.progress-value.lgreen {
+   background-color: #30d18b;
+  animation: progress-4 3s ease-in-out forwards;
+    -webkit-animation: progress-4 3s ease-in-out forwards;
+}
+
+
+.progress-value.dgreen {
+   background-color: #0d7346;
+  animation: progress-4 3s ease-in-out forwards;
+    -webkit-animation: progress-4 3s ease-in-out forwards;
+}
+
+
+
+.progress-value.dred {
+   background-color: #b0104b;
+  animation: progress-5 3s ease-in-out forwards;
+    -webkit-animation: progress-5 3s ease-in-out forwards;
+}
+
+.progress-value.dblue {
+   background-color: #1068b0;
+  animation: progress-6 3s ease-in-out forwards;
+    -webkit-animation: progress-6 3s ease-in-out forwards;
+}
+
+
+
+.progress-value.yb {
+   background-color: #35bfde;
+  animation: progress-2 3s ease-in-out forwards;
+    -webkit-animation: progress-2 3s ease-in-out forwards;
+}
+
+
+.progress-value.red{
+   background-color: #d6261a;
+  animation: progress-6 3s ease-in-out forwards;
+    -webkit-animation: progress-6 3s ease-in-out forwards;
+}
+
+
+
+.progress-value.lblack{
+   background-color: #0c1530;
+  animation: progress-6 3s ease-in-out forwards;
+    -webkit-animation: progress-6 3s ease-in-out forwards;
+}
+
+
+
+.progress-value.orange{
+   background-color: #b56922;
+  animation: progress 3s ease-in-out forwards;
+    -webkit-animation: progress 3s ease-in-out forwards;
+}
 /* animation */
  @keyframes progress {
   from {
@@ -309,6 +375,66 @@ width: 200px;
   }
 }
 
+@keyframes progress-4 {
+ from {
+   width: 0;
+ }
+ to {
+   width: 70%;
+ }
+}
+
+
+@-webkit-keyframes progress-4{
+ from {
+   width: 0;
+ }
+ to {
+   width: 70%;
+ }
+}
+
+
+@keyframes progress-5 {
+ from {
+   width: 0;
+ }
+ to {
+   width: 65%;
+ }
+}
+
+
+@-webkit-keyframes progress-5{
+ from {
+   width: 0;
+ }
+ to {
+   width: 65%;
+ }
+}
+
+
+@keyframes progress-6{
+ from {
+   width: 0;
+ }
+ to {
+   width: 80%;
+ }
+}
+
+
+@-webkit-keyframes progress-6{
+ from {
+   width: 0;
+ }
+ to {
+   width: 80%;
+ }
+}
+
+
 .progress-value{
   width:75%
 }
@@ -321,6 +447,36 @@ width: 200px;
   width:90%;
 }
 
+.progress-value blue{
+  width:75%;
+}
+
+.progress-value lgreen{
+  width:70%;
+}
+
+.progress-value dred{
+  width:65%;
+}
+
+
+
+.progress-value dblue{
+  width:80%;
+}
+
+.progress-value yb{
+  width:85%;
+}
+
+
+.progress-value dred{
+  width:80%;
+}
+
+.progress-value orange{
+  width:75%;
+}
 
 
 .barname{
@@ -331,7 +487,7 @@ width: 200px;
 }
 
 .progress{
-  width: 400px;
+  width: 425px;
   text-align:left;
   height: 20px;
   font-size: 11px;
@@ -349,4 +505,44 @@ width: 200px;
 ProgressBar{
 
   width:300px;
+}
+
+
+.skills{
+  /* justify-content: space-between; */
+  flex-direction: column;
+  height: 100vh;
+
+  display: flex;
+}
+
+
+
+
+.plate {
+  width: 410px;
+  margin: auto;
+}
+
+.script {
+  font-family: "Seaweed Script";
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin:0;
+  font-weight:bold; 
+}
+.script span {
+
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
 }
