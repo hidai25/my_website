@@ -6,88 +6,119 @@ import { Google,Facebook, Twitter } from 'react-sharingbuttons'
 import 'react-sharingbuttons/dist/main.css'
 import {Helmet} from 'react-helmet';
 import Navbar from './Navbar';
+import styled from 'styled-components';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
+
+const GridWrapper = styled.div`
+  // display: grid;
+  // grid-gap: 10px;
+  // margin-top: 1em;
+  // margin-left: 6em;
+  // margin-right: 6em;
+  // grid-template-columns: repeat(12, 1fr);
+  // grid-auto-rows: minmax(25px, auto);
+`;
+
+
 
 export default class Contact extends React.Component {
 	render() {
 		return (
+<GridWrapper>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+
+
 
 			<div className="contact">
 			   <Navbar fixed="top" />
 			<Helmet>
-							<style>{'body { background-color: #323f54; }'}</style>
+							<style>{'body { background-color: #323f54;text-align: center }'}</style>
 					</Helmet>
-			<div id="my-contact" className="container text-center my-5">
-			<Fade left>
-				<h1 id="contact" className={"mb-3 " + this.props.fadeInLeft}>
-					Contact
-				</h1>
-				</Fade>
-				<form
-					className={this.props.shake}
-					action="https://formspree.io/example@email.com"
-					method="POST">
-					<div className="form-group">
-						<div className="row">
-							<div className="col-12 col-sm-12 col-md-6 mx-auto">
-								<input
-									type="text"
-									name="name"
-									className="form-control form-control-lg"
-									id="name"
-									placeholder="Name"
-								/>
-							</div>
-						</div>
-					</div>
-					<div className="form-group hidden">
-						<div className="row">
-							<div className="col-12 col-sm-12 col-md-6 mx-auto">
-								<input
-									type="email"
-									name="_replyto"
-									className="form-control form-control-lg"
-									id="exampleFormControlInput1"
-									placeholder="Your email"
-								/>
-							</div>
-						</div>
-					</div>
-					<div className="form-group hiddenRight">
-						<div className="row">
-							<div className="col-12 col-sm-12 col-md-6 mx-auto">
-								<textarea
-									name="message"
-									className="form-control form-control-lg"
-									id="exampleFormControlTextarea1"
-									rows="3"
-									placeholder="Write your message..."
-								/>
-							</div>
-						</div>
-					</div>
-					<div className="row text-md-center text-sm-center">
-						<div className="col-8 col-sm-8 col-md-6 mx-auto">
-							<button
-								type="submit"
-								className="btn btn-primary mb-2 hidden">
-								Submit
-							</button>
-						</div>
-					</div>
-				</form>
+<div class="container-contact100">
+			<span class="contact100-form-title-2">
+				Feel free to drop me a line below!
+			</span>
 
-				<Facebook url={"https://www.facebook.com/hidai.barmor"} />
-				      <Twitter url={"https://twitter.com/hidai_barmor"} shareText={"hello"} />
-							  <Google url={"www.Google.com"} shareText={"hello"} />
+		<form action="https://formspree.io/hidai25@gmail.com" class="contact100-form validate-form" method="POST">
+			<div class="wrap-input100 validate-input" data-validate="Name is required">
+				<span class="label-input100">Full Name:</span>
+				<input class="input100" type="text" name="name" placeholder="Enter full name"/>
+				<span class="focus-input100"></span>
+			</div>
 
+			<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+				<span class="label-input100">Email:</span>
+				<input class="input100" type="text" name="email" placeholder="Enter email addess"/>
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="wrap-input100 validate-input" data-validate="Phone is required">
+				<span class="label-input100">Phone:</span>
+				<input class="input100" type="text" name="phone" placeholder="Enter phone number"/>
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="wrap-input100 validate-input" data-validate = "Message is required">
+				<span class="label-input100">Message:</span>
+				<textarea class="input100" name="message" placeholder="Your Comment..."></textarea>
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="container-contact100-form-btn">
+				<button class="contact100-form-btn">
+					<span>
+						Submit
+						<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+					</span>
+				</button>
+			</div>
+
+
+
+
+				<a
+				  href="https://www.facebook.com/hidai.barmor"
+				  className="facebook social"
+				>
+				  <FontAwesomeIcon icon={faFacebook} size="2x" />
+				</a>
+
+								<a
+    href="https://www.youtube.com/"
+    className="youtube social"
+ >
+    <FontAwesomeIcon icon={faYoutube} size="2x" />
+ </a>
+ <a href="https://twitter.com/hidai_barmor" className="twitter social">
+   <FontAwesomeIcon icon={faTwitter} size="2x" />
+ </a>
+ <a
+   href="https://www.instagram.com/"
+   className="instagram social"
+ >
+   <FontAwesomeIcon icon={faInstagram} size="2x" />
+ </a>
+
+ 	</form>
 
 			</div>
 			</div>
+</GridWrapper>
 		);
 	}
 }
-
-// Contact.propTypes = {
-// 	fadeInLeft: PropTypes.string,
-// 	shake: PropTypes.string
-// };

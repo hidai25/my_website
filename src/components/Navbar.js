@@ -40,7 +40,7 @@ const GridWrapper = styled.div`
                <Link className="Nav__link" to="/">Home</Link>
              </li>
                <li className="Nav__item">
-                 <Link className="Nav__link" to="/About">About Me</Link>
+                 <Link className="Nav__link " to="/About">About Me</Link>
                </li>
                <li className="Nav__item">
                  <Link className="Nav__link" to="/Academics_and_Skills">Academics and Skills</Link>
