@@ -6,6 +6,9 @@ import '../App.css';
 import { Link } from 'react-router-dom';
 import { keyframes } from "styled-components"
 import Typist from 'react-typist';
+import code from '../img/code.jpg';
+
+
 // import Fade from 'react-reveal/Fade';
 
 // animation to slide in the home page from left
@@ -43,6 +46,7 @@ height: 100vh;
 background-color: #283040;
 font-family: "Open Sans", sans-serif;
 font-align:center;
+
 `;
 
 
@@ -62,7 +66,7 @@ class Home extends Component {
   render() {
     return (
       // <div className="home">
-        <div className="home">
+        <div className="home" >
       <Page>
       <HomePageElm>
 

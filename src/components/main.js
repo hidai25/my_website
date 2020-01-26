@@ -3,7 +3,7 @@ import { Switch, Route} from 'react-router-dom';
 import Contact from './Contact';
 import Projects from './Projects';
 import Home from './Home';
-import About from './About.jsx';
+import About from './About';
 import Academics_and_Skills from './Academics_and_Skills';
 
 

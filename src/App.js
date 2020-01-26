@@ -5,7 +5,7 @@ import {BrowserRouter} from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import {Layout, Header, Navigation, Drawer, Content, download} from 'react-mdl';
 import Home from './components/Home';
-import About from './components/About.jsx';
+import About from './components/About';
 import Contact from './components/Contact.js';
 import Projects from './components/Projects.js';
 import Academics_and_Skills from './components/Academics_and_Skills';
@@ -24,7 +24,7 @@ function App() {
            <Content>
                <Main/>
            </Content>
-           
+
        </Layout>
    </div>
      );
