@@ -42,7 +42,7 @@ class About extends Component {
           <a href="https://www.facebook.com/hidai.barmor" className="facebook social">
             <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
-          <a href="https://www.youtube.com/"  className="github social">
+          <a href="https://github.com/hidai25"  className="github social">
           <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
 
@@ -50,7 +50,7 @@ class About extends Component {
           <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
 
-          <a href="https://www.instagram.com/" className="instagram social">
+          <a href="https://www.instagram.com/hidai25/" className="instagram social">
           <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
           </div>

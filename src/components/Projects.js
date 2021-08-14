@@ -46,11 +46,11 @@ function Projects(props) {
       <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
 
-      <a href="https://twitter.com/hidai_barmor" className="twitter social">
+      <a href="https://twitter.com/hidai_barmor" className="twitter  social">
       <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
 
-      <a href="https://www.instagram.com/hidai25/" className="instagram social">
+      <a href="https://www.instagram.com/hidai25/" className="instagram  social">
       <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
       </div>
